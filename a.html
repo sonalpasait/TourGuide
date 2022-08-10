@@ -1,0 +1,379 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+  
+  body {
+    background: rgb(113, 195, 34);
+    background: linear-gradient(0deg, rgba(113, 195, 34, 1) 0%, rgba(74, 126, 187, 1) 100%);
+    /* background-image: url("raigarh1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; */
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .heading {
+    background-color: darkgoldenrod;
+    border: 0.0625rem solid black;
+    border-radius: 0.625rem 0.3125rem 0.625rem 0.3125rem;
+  box-shadow: 0.0625rem 0.125 0.0625rem 0.0625rem;
+
+    color: antiquewhite;
+    text-align: center;
+    font-weight: bold;
+    
+    width: fit-content;
+  padding: 1rem;
+  box-shadow: 0.3125rem  0.3125rem #555454;
+
+  }
+  .heading-div {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media screen and (max-width:800px){
+     .heading-div {
+       
+    grid-template-columns: repeat(2, 1fr);
+  }
+ .btn{
+    font-size: medium;
+    margin: .7rem 0;
+    padding: 10rem 10rem;
+  }
+
+  }
+
+  
+  @media screen and (max-width:500px){
+     .heading-div {
+       
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .btn{
+    font-size: small;
+    
+  }
+  }
+
+
+  .btn {
+  display: inline-block;
+  background-color: yellow;
+  color: white;
+  padding: 0.8rem 1.25rem;
+  margin: .5rem 0;
+  font-size: large;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  }
+  .btn:hover {background-color:darkgoldenrod}
+
+.btn:active {
+  background-color: darkgreen;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+  div.polaroid {
+    width: 50%;
+  height: 40%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin: auto;
+}
+
+div.container {
+  text-align: center;
+  padding: .8rem 1.5rem;
+}
+
+.heading-div1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+</style>
+
+
+
+
+<body>
+
+  <nav class="navbar  navbar-expand-lg navbar-light bg-">
+    <a class="navbar-brand" href="#"><b>TourGuide</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse align-middle" id="navbarNavAltMarkup">
+      <div class="navbar-nav ">
+        <a class="nav-link align-middle" href="index.html.html">Home </a>
+        <a class="nav-link align-middle" href="another11.html">Parks</a>
+        <a class="nav-link active align-middle" href="another22.html">Temples<span class="sr-only">(current)</span></a>
+        <a class="nav-link align-middle" href="another33.html">Picnic Sites</a>
+        <a class="nav-link align-middle" href="about.html">About</a>
+        <a class="nav-link align-middle" href="contact.html">Contact </a>
+        <a class="nav-link align-middle" href="log.html">Login</a>
+        
+      </div>
+    </div>
+  </nav>
+
+<br>
+
+  <div class="heading-div1">
+    <h1 class="heading" style="font-size:5vw;">Temples</h1>
+
+  </div>
+<br>
+<br>
+
+<!-- Main hero section or tempele cards -->
+
+<div class="heading-div">
+
+  <!-- 1 -->
+<div class="polaroid">
+  <img src="pm.jpg" alt="5 Terre" style="width:100%">
+  <div class="container">
+    <a href="pm.html" >
+      <button  class='btn btn1'> Pahad Mandir</button>
+      </a>
+  </div>
+</div>
+
+  <!-- 2 -->
+
+<div class="polaroid">
+  <img src="gourisankar.jpg" alt="Norther Lights" style="width:100%">
+  <div class="container">
+    <a href="gs.html" >
+      <button  class='btn btn1'>GauriShankar</button>
+    </a>
+  </div>
+</div>
+
+  <!-- 3 -->
+
+<div class="polaroid">
+  <img src="banjari.jpg" alt="5 Terre" style="width:100%">
+  <div class="container">
+    <a href="banjari.html" >
+      <button  class='btn btn1'>Banjari Mandir</button>
+    </a>
+  </div>
+</div>
+  <!-- 4 -->
+
+<div class="polaroid">
+  <img src="sai.jpg" alt="Norther Lights" style="width:100%">
+  <div class="container">
+    <a href="sai.html" >
+      <button  class='btn btn4'>Sai Mandir</button>
+    </a>
+  </div>
+</div>
+
+
+  <!-- 5 -->
+
+<div class="polaroid">
+  <img src="bd.jpg" alt="5 Terre" style="width:100%">
+  <div class="container">
+    <a href="bd.html" >
+      <button  class='btn btn5'>Baba Dhaam</button>
+    </a>
+  </div>
+</div>
+
+
+  <!-- 6 -->
+
+<div class="polaroid">
+  <img src="bmm.jpg" alt="Norther Lights" style="width:100%">
+  <div class="container">
+    <a href="bmm.html" >
+      <button  class='btn btn5'>BudhiMai Mandir</button>
+    </a>
+  </div>
+</div>
+
+</div>
+
+
+
+<div class="heading-div">
+
+</div>
+
+
+<!-- Footer -->
+<footer class="page-footer font-small indigo bg-dark text-white">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+    <h4 class="text-center">TourGuide</h4>
+        <p class="text-center">This website is help you to find the best tourist places in Raigarh city.</p>
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="index.html.html"><h5 class="font-weight-bold text-uppercase mt-3 mb-4">Home</h5></a>
+          </li>
+          <li>
+            <a href="about.html"><h5 class="font-weight-bold text-uppercase mt-3 mb-4">About</h5></a>
+          </li>
+          <li>
+            <a href="contact.html"><h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contact</h5></a>
+          </li>
+          <li>
+            <a href="log.html"><h5 class="font-weight-bold text-uppercase mt-3 mb-4">Login</h5></a>          </li>
+         
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        <a href="another11.html"><h5 class="font-weight-bold text-uppercase mt-3 mb-4">Parks</h5></a>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="Nehru.html">Kamla Nehru</a>
+          </li>
+          <li>
+            <a href="pushpvatika.html">Pushpvatika</a>
+          </li>
+          <li>
+            <a href="iv.html">Indra vihar</a>
+          </li>
+          <li>
+            <a href="Eco.html">Eco Park</a>
+          </li>
+          <li>
+            <a href="kelo.html">Kelo Park</a>
+          </li>
+          <li>
+            <a href="rose,html.html">Rose Garden</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        <a href="another22.html"><h5 class="font-weight-bold text-uppercase mt-3 mb-4">Temples</h5></a>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="pm.html">Pahad Mandir</a>
+          </li>
+          <li>
+            <a href="gs.html">Gourishankar Mandir</a>
+          </li>
+          <li>
+            <a href="banjari.html">Banjari Mandir</a>
+          </li>
+          <li>
+            <a href="sai.html">Sai Mandir</a>
+          </li>
+          <li>
+            <a href="bmm.html">Budhi mai mandir</a>
+          </li><li>
+            <a href="bd.html">Babadhaam</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        <a href="another33.html"><h5 class="font-weight-bold text-uppercase mt-3 mb-4">Picnic Sites</h5></a>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="ivp.html">Indra vihar</a>
+          </li>
+          <li>
+            <a href="ecop.html">Eco Park</a>
+          </li>
+          <li>
+            <a href="kelop.html">Kelo Park</a>
+          </li>
+          <li>
+            <a href="rj.html">Ram Jharna</a>
+          </li>
+          <li>
+            <a href="tpk.html">Tipakhol</a>
+          </li>
+          <li>
+            <a href="pd.html">Panchdhaari</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+<br><br><br>
+
+</footer>
+<!-- Footer -->
+
+  <!-- bootstrap js link -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
